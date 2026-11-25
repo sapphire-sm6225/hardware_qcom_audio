@@ -86,7 +86,6 @@ LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_C_INCLUDES := \
         $(call project-path-for,qcom-audio)/primary-hal/hal \
-        $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
         $(call project-path-for,qcom-audio)/pal \
         $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/audio \
         $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/include \
